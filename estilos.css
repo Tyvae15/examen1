@@ -1,0 +1,150 @@
+main
+{
+    max-width: 1200px;
+    margin:auto;
+}
+
+main header
+{
+    display: flex;
+    background-color: black;
+    height: 50px;
+
+}
+
+main header h1
+{
+    color:white;
+    padding-left: 150px;
+    padding-right: 20px;
+    height: 50px;
+    margin-top: 5px;
+}
+
+
+main header input
+{
+    width: 1200px;
+    margin-top: 3px;
+    margin-right: 0px;
+    max-height: 30px;
+
+}
+
+main header img {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-left: 50px;
+    padding-right: 30px;
+    margin-right: 10px;
+}
+
+
+main header p
+{
+    color:white;
+    display: flex;
+    margin-top: 10px;
+}
+
+
+
+.menuCabecera{
+    display: flex;
+    padding-top: 3px;
+    
+}
+
+
+.menuCabecera li {
+    list-style-type: none;
+    margin-right: 20px;
+    text-transform: uppercase;   
+    font-size: 11px;
+    color:white;
+}
+
+
+nav {
+    margin:0px;
+    background-color: white;
+    padding: 0px;
+}
+
+nav ol {
+    margin:0px;
+    display: flex;
+    text-transform: uppercase;
+    font-family: DINPro, sans-serif;
+    text-align: center;
+    list-style-type: none;
+    font-size: 11px;
+    padding-top: 15px;
+    padding-left: 240px;
+    padding-bottom: 15px;
+}
+
+nav ol li {
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.seccionBanner {
+    font-display: flex;
+    background-image: url(img/bannerm.JPG);
+    height: 380px;
+    width: 1200px;
+}
+section h2
+{
+    color:white;
+}
+section h3
+{
+    color:white;
+}
+
+section p
+{
+    color:white;
+    font-display: flex;
+}
+
+section button
+{
+    margin-left: 50px;
+    background-color:#5787f4;
+    border-color: white;
+    color: white;
+    outline: none;
+    box-shadow: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-width: 1px;
+}
+.barra
+{
+    background-color: gainsboro;
+}
+
+.barra p
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color:black;
+}
+
+.barra span
+{
+    color:orange;
+}
+footer {
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: white;
+    display: flex;
+    padding-bottom: 30px;
+}
